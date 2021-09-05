@@ -1,0 +1,131 @@
+body{
+	background-color: #e7e7e7;
+}
+
+.navigation-bar {
+    width: 100%; 
+    height: 80px;
+    font-family: 'Montserrat';
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 120px;
+    width: 180px;
+    height: 50px;
+    margin-right: 40px;
+    margin-top: 13px; 
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 18px;
+    padding-left: 20px;        
+    line-height: 74px;
+    color:   #2d324c;  
+    text-decoration: none;
+}
+
+.navigation-bar > i {
+	float: right;
+	margin-top: 27px;
+	padding: 5px;
+	font-size: 19px;
+
+}
+
+.pill1{
+	width:190px;
+	height: 94px;
+	z-index: -1;
+	margin-left:26.8%;
+	border:3.5px solid #cfcfcf;
+	border-radius: 3rem;
+	transform: rotate(150deg) translate(-150px, 40px);
+	position: absolute;
+}
+
+.pill2{
+	border:3.5px solid #cfcfcf;
+	height: 125px;
+	width: 125px;
+	border-radius: 5rem;
+	float: right;
+	transform: translate(80px);
+}
+.text{
+	margin-left: 120px;
+	width: 80vh;
+}
+
+p{
+	font-family: Merriweather;
+	margin-top: 120px;
+	font-size: 34.5px;
+	margin-bottom: 27px;
+}
+
+button{
+	padding: 10px;
+	font-family: Montserrat;
+	margin-right: 30px;
+	border:0.5px solid #091931;
+	color: #091931;
+}
+
+#b1{
+	background-color: #091931;
+	color: white;
+}
+
+.illustration{
+	float: right;
+	margin-right: 230px;
+	margin-top: -275px;
+}
+
+#obj{
+	height: 45vh;
+}
+
+.smalldots{
+	float: right;
+	right: 6px;
+	top:35vh;
+	color: #919191;
+	position: absolute;
+
+}
+
+#bigdot{
+	font-size: 46px;
+	margin-left: 13px; 
+	color: #38444E;
+}
+
+html body .triangle{
+	padding-top: 30px;
+	fill :red;
+}
+
+#tri{
+	height: 150px;
+}
+
+.wwd{
+	font-family: Merriweather;
+	font-size: 25px;
+	margin-left: 90vh;
+	margin-top:20px;
+	width: 200px;
+	position: relative;
+}
+
+.pill3{
+	border:3.5px solid #cfcfcf;
+	border-radius: 4rem;
+	width:237px;
+	height: 110px;
+	margin-left: 150vh;
+	transform: rotate(25deg) translate(-130px, 40px);
+}
